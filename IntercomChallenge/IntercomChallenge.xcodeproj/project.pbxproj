@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38AE0F281C5651360058A0BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE0F271C5651360058A0BA /* main.m */; };
+		38AE0F2B1C5651360058A0BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE0F2A1C5651360058A0BA /* AppDelegate.m */; };
+		38AE0F311C5651360058A0BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AE0F2F1C5651360058A0BA /* Main.storyboard */; };
+		38AE0F331C5651360058A0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE0F321C5651360058A0BA /* Assets.xcassets */; };
+		38AE0F361C5651360058A0BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AE0F341C5651360058A0BA /* LaunchScreen.storyboard */; };
+		38AE0F411C5651360058A0BA /* IntercomChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE0F401C5651360058A0BA /* IntercomChallengeTests.m */; };
+		38AE0F4D1C5651970058A0BA /* NetworkingConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE0F4C1C5651970058A0BA /* NetworkingConnection.m */; };
+		38AE0F511C56A3B00058A0BA /* CustomerInRadiusTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE0F501C56A3B00058A0BA /* CustomerInRadiusTVC.m */; };
+		38AE0F541C56A61F0058A0BA /* urls.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38AE0F531C56A61F0058A0BA /* urls.plist */; };
+		38AE0F571C56A7DB0058A0BA /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AE0F561C56A7DB0058A0BA /* Customer.m */; };
+		38BEA5B61C57AF8E00CC4931 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BEA5B51C57AF8E00CC4931 /* MapViewController.m */; };
+		C1DC506B1C56E0DD00A0C1F7 /* IntercomChallengeDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1DC50691C56E0DD00A0C1F7 /* IntercomChallengeDataModel.xcdatamodeld */; };
+		C1DC506E1C56E16100A0C1F7 /* CustomerDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DC506D1C56E16100A0C1F7 /* CustomerDAO.m */; };
+		C1DC50721C56E68C00A0C1F7 /* MasterDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DC50711C56E68C00A0C1F7 /* MasterDAO.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38AE0F3D1C5651360058A0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38AE0F1B1C5651350058A0BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38AE0F221C5651350058A0BA;
+			remoteInfo = IntercomChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38AE0F231C5651350058A0BA /* IntercomChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntercomChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AE0F271C5651360058A0BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38AE0F291C5651360058A0BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38AE0F2A1C5651360058A0BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38AE0F301C5651360058A0BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38AE0F321C5651360058A0BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38AE0F351C5651360058A0BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38AE0F371C5651360058A0BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38AE0F3C1C5651360058A0BA /* IntercomChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntercomChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AE0F401C5651360058A0BA /* IntercomChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntercomChallengeTests.m; sourceTree = "<group>"; };
+		38AE0F421C5651360058A0BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38AE0F4B1C5651970058A0BA /* NetworkingConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingConnection.h; sourceTree = "<group>"; };
+		38AE0F4C1C5651970058A0BA /* NetworkingConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingConnection.m; sourceTree = "<group>"; };
+		38AE0F4F1C56A3B00058A0BA /* CustomerInRadiusTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerInRadiusTVC.h; sourceTree = "<group>"; };
+		38AE0F501C56A3B00058A0BA /* CustomerInRadiusTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerInRadiusTVC.m; sourceTree = "<group>"; };
+		38AE0F531C56A61F0058A0BA /* urls.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = urls.plist; sourceTree = "<group>"; };
+		38AE0F551C56A7DB0058A0BA /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		38AE0F561C56A7DB0058A0BA /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		38BEA5B41C57AF8E00CC4931 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		38BEA5B51C57AF8E00CC4931 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		C1DC506A1C56E0DD00A0C1F7 /* IntercomChallengeDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntercomChallengeDataModel.xcdatamodel; sourceTree = "<group>"; };
+		C1DC506C1C56E16100A0C1F7 /* CustomerDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerDAO.h; sourceTree = "<group>"; };
+		C1DC506D1C56E16100A0C1F7 /* CustomerDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerDAO.m; sourceTree = "<group>"; };
+		C1DC50701C56E68C00A0C1F7 /* MasterDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterDAO.h; sourceTree = "<group>"; };
+		C1DC50711C56E68C00A0C1F7 /* MasterDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterDAO.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38AE0F201C5651350058A0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AE0F391C5651360058A0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38AE0F1A1C5651350058A0BA = {
+			isa = PBXGroup;
+			children = (
+				38AE0F251C5651360058A0BA /* IntercomChallenge */,
+				38AE0F3F1C5651360058A0BA /* IntercomChallengeTests */,
+				38AE0F241C5651350058A0BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38AE0F241C5651350058A0BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38AE0F231C5651350058A0BA /* IntercomChallenge.app */,
+				38AE0F3C1C5651360058A0BA /* IntercomChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38AE0F251C5651360058A0BA /* IntercomChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				38AE0F291C5651360058A0BA /* AppDelegate.h */,
+				38AE0F2A1C5651360058A0BA /* AppDelegate.m */,
+				C1DC506F1C56E16500A0C1F7 /* DaoModel */,
+				38AE0F581C56A7E30058A0BA /* Model */,
+				38BEA5B71C57AFAF00CC4931 /* ViewControllers */,
+				38AE0F521C56A3B50058A0BA /* TableViewControllers */,
+				38AE0F4E1C5651AC0058A0BA /* Network */,
+				38AE0F2F1C5651360058A0BA /* Main.storyboard */,
+				38AE0F321C5651360058A0BA /* Assets.xcassets */,
+				38AE0F341C5651360058A0BA /* LaunchScreen.storyboard */,
+				38AE0F371C5651360058A0BA /* Info.plist */,
+				C1DC50691C56E0DD00A0C1F7 /* IntercomChallengeDataModel.xcdatamodeld */,
+				38AE0F261C5651360058A0BA /* Supporting Files */,
+			);
+			path = IntercomChallenge;
+			sourceTree = "<group>";
+		};
+		38AE0F261C5651360058A0BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38AE0F271C5651360058A0BA /* main.m */,
+				38AE0F531C56A61F0058A0BA /* urls.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38AE0F3F1C5651360058A0BA /* IntercomChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				38AE0F401C5651360058A0BA /* IntercomChallengeTests.m */,
+				38AE0F421C5651360058A0BA /* Info.plist */,
+			);
+			path = IntercomChallengeTests;
+			sourceTree = "<group>";
+		};
+		38AE0F4E1C5651AC0058A0BA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				38AE0F4B1C5651970058A0BA /* NetworkingConnection.h */,
+				38AE0F4C1C5651970058A0BA /* NetworkingConnection.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		38AE0F521C56A3B50058A0BA /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				38AE0F4F1C56A3B00058A0BA /* CustomerInRadiusTVC.h */,
+				38AE0F501C56A3B00058A0BA /* CustomerInRadiusTVC.m */,
+			);
+			name = TableViewControllers;
+			sourceTree = "<group>";
+		};
+		38AE0F581C56A7E30058A0BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38AE0F551C56A7DB0058A0BA /* Customer.h */,
+				38AE0F561C56A7DB0058A0BA /* Customer.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		38BEA5B71C57AFAF00CC4931 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				38BEA5B41C57AF8E00CC4931 /* MapViewController.h */,
+				38BEA5B51C57AF8E00CC4931 /* MapViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C1DC506F1C56E16500A0C1F7 /* DaoModel */ = {
+			isa = PBXGroup;
+			children = (
+				C1DC50701C56E68C00A0C1F7 /* MasterDAO.h */,
+				C1DC50711C56E68C00A0C1F7 /* MasterDAO.m */,
+				C1DC506C1C56E16100A0C1F7 /* CustomerDAO.h */,
+				C1DC506D1C56E16100A0C1F7 /* CustomerDAO.m */,
+			);
+			name = DaoModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38AE0F221C5651350058A0BA /* IntercomChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38AE0F451C5651360058A0BA /* Build configuration list for PBXNativeTarget "IntercomChallenge" */;
+			buildPhases = (
+				38AE0F1F1C5651350058A0BA /* Sources */,
+				38AE0F201C5651350058A0BA /* Frameworks */,
+				38AE0F211C5651350058A0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntercomChallenge;
+			productName = IntercomChallenge;
+			productReference = 38AE0F231C5651350058A0BA /* IntercomChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38AE0F3B1C5651360058A0BA /* IntercomChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38AE0F481C5651360058A0BA /* Build configuration list for PBXNativeTarget "IntercomChallengeTests" */;
+			buildPhases = (
+				38AE0F381C5651360058A0BA /* Sources */,
+				38AE0F391C5651360058A0BA /* Frameworks */,
+				38AE0F3A1C5651360058A0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38AE0F3E1C5651360058A0BA /* PBXTargetDependency */,
+			);
+			name = IntercomChallengeTests;
+			productName = IntercomChallengeTests;
+			productReference = 38AE0F3C1C5651360058A0BA /* IntercomChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38AE0F1B1C5651350058A0BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = seblerom;
+				TargetAttributes = {
+					38AE0F221C5651350058A0BA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6389YLWL2N;
+					};
+					38AE0F3B1C5651360058A0BA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 38AE0F221C5651350058A0BA;
+					};
+				};
+			};
+			buildConfigurationList = 38AE0F1E1C5651350058A0BA /* Build configuration list for PBXProject "IntercomChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38AE0F1A1C5651350058A0BA;
+			productRefGroup = 38AE0F241C5651350058A0BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38AE0F221C5651350058A0BA /* IntercomChallenge */,
+				38AE0F3B1C5651360058A0BA /* IntercomChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38AE0F211C5651350058A0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38AE0F361C5651360058A0BA /* LaunchScreen.storyboard in Resources */,
+				38AE0F331C5651360058A0BA /* Assets.xcassets in Resources */,
+				38AE0F541C56A61F0058A0BA /* urls.plist in Resources */,
+				38AE0F311C5651360058A0BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AE0F3A1C5651360058A0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38AE0F1F1C5651350058A0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38AE0F571C56A7DB0058A0BA /* Customer.m in Sources */,
+				38AE0F4D1C5651970058A0BA /* NetworkingConnection.m in Sources */,
+				38AE0F2B1C5651360058A0BA /* AppDelegate.m in Sources */,
+				38AE0F281C5651360058A0BA /* main.m in Sources */,
+				C1DC506B1C56E0DD00A0C1F7 /* IntercomChallengeDataModel.xcdatamodeld in Sources */,
+				C1DC506E1C56E16100A0C1F7 /* CustomerDAO.m in Sources */,
+				38BEA5B61C57AF8E00CC4931 /* MapViewController.m in Sources */,
+				C1DC50721C56E68C00A0C1F7 /* MasterDAO.m in Sources */,
+				38AE0F511C56A3B00058A0BA /* CustomerInRadiusTVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AE0F381C5651360058A0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38AE0F411C5651360058A0BA /* IntercomChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38AE0F3E1C5651360058A0BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38AE0F221C5651350058A0BA /* IntercomChallenge */;
+			targetProxy = 38AE0F3D1C5651360058A0BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38AE0F2F1C5651360058A0BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38AE0F301C5651360058A0BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38AE0F341C5651360058A0BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38AE0F351C5651360058A0BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38AE0F431C5651360058A0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38AE0F441C5651360058A0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38AE0F461C5651360058A0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = IntercomChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.seblerom.IntercomChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38AE0F471C5651360058A0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = IntercomChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.seblerom.IntercomChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38AE0F491C5651360058A0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IntercomChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.seblerom.IntercomChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntercomChallenge.app/IntercomChallenge";
+			};
+			name = Debug;
+		};
+		38AE0F4A1C5651360058A0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IntercomChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.seblerom.IntercomChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntercomChallenge.app/IntercomChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38AE0F1E1C5651350058A0BA /* Build configuration list for PBXProject "IntercomChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AE0F431C5651360058A0BA /* Debug */,
+				38AE0F441C5651360058A0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38AE0F451C5651360058A0BA /* Build configuration list for PBXNativeTarget "IntercomChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AE0F461C5651360058A0BA /* Debug */,
+				38AE0F471C5651360058A0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38AE0F481C5651360058A0BA /* Build configuration list for PBXNativeTarget "IntercomChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AE0F491C5651360058A0BA /* Debug */,
+				38AE0F4A1C5651360058A0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C1DC50691C56E0DD00A0C1F7 /* IntercomChallengeDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C1DC506A1C56E0DD00A0C1F7 /* IntercomChallengeDataModel.xcdatamodel */,
+			);
+			currentVersion = C1DC506A1C56E0DD00A0C1F7 /* IntercomChallengeDataModel.xcdatamodel */;
+			path = IntercomChallengeDataModel.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38AE0F1B1C5651350058A0BA /* Project object */;
+}
